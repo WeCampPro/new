@@ -1,0 +1,132 @@
+body {
+  color: var(--paragraphs);
+  font-family: Vazirmatn, Noto Naskh Arabic, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.667em;
+}
+
+/* =================Navbar================ */
+
+@media screen and (min-width: 992px) {
+  .container-default-1209px {
+    direction: rtl;
+  }
+}
+
+.nav-menu {
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+.cart {
+  margin-right: auto;
+  margin-left: 26px;
+}
+
+.dropdown-icon {
+  right: 3px;
+}
+
+.w-commerce-commercecartopenlinkcount {
+  margin-left: auto;
+  margin-right: 8px
+}
+
+/* =================Index================ */
+.event-icon {
+  margin-left: 12px;
+}
+
+.event-date-wrapper {
+  margin-right: auto;
+  margin-left: 40px;
+}
+
+.event-location-text {
+  max-width: 260px;
+}
+
+/* =================Sales Home================ */
+.section {
+  direction: rtl;
+}
+
+/* =========Primary Home========== */
+.split-content.about-section-right {
+  margin-left: auto;
+  margin-right: 71px;
+}
+
+/*Our Student section*/
+.title.companies {
+  letter-spacing: .02em;
+}
+/* =========404========== */
+.text-center {
+  direction: rtl;
+}
+
+.button-secondary {
+  letter-spacing: .02em;
+}
+
+/* =========Courses========== */
+.level-icon {
+  margin-right: auto;
+  margin-left: 8px;
+  -webkit-transform: scaleX(-1); /* For Safari */
+  transform: scaleX(-1);
+} /*WiFi icon*/
+
+/* =========Single Course========== */
+.videos-detail-icon {
+  margin-right: auto;
+  margin-left: 14px;
+  -webkit-transform: scaleX(-1); /* For Safari */
+  transform: scaleX(-1);
+}
+
+.icon-videos-community-wrapper {
+  margin-right: auto;
+  margin-left: 24px;
+  width: 130px;
+  min-width: 130px;
+  height: 130px;
+}
+
+.icon-files-wrapper {
+  margin-right: auto;
+  margin-left: 16px;
+}
+
+.course-video-icon {
+  margin-right: auto;
+  margin-left: 31px;
+}
+
+/* =========Chat Popup========== */
+.more-templates-badge-wrapper {
+  direction: rtl;
+}
+
+.block {
+  display: block;
+} /*to have a new line after*/
+
+/* =========Hambergur Menu========== */
+@media screen and (max-width: 767px) {
+    .nav-link {
+        direction: rtl;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header {
+        direction: rtl;
+    }
+}
+
+.w--nav-dropdown-open {
+  direction: rtl;
+}
