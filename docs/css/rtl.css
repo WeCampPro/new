@@ -47,6 +47,10 @@ body {
   max-width: 260px;
 }
 
+.button-primary {
+  letter-spacing: 0;
+}
+
 /* =================Sales Home================ */
 .section {
   direction: rtl;
@@ -60,7 +64,7 @@ body {
 
 /*Our Student section*/
 .title.companies {
-  letter-spacing: .02em;
+  letter-spacing: 0;
 }
 /* =========404========== */
 .text-center {
