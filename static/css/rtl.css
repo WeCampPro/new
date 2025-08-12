@@ -39,7 +39,7 @@ body {
 }
 
 .event-date-wrapper {
-  margin-right: auto;
+  margin-right: 0;
   margin-left: 40px;
 }
 
@@ -47,7 +47,7 @@ body {
   max-width: 260px;
 }
 
-.button-primary {
+.button-primary, .footer-title {
   letter-spacing: 0;
 }
 
@@ -85,7 +85,7 @@ body {
 
 /* =========Single Course========== */
 .videos-detail-icon {
-  margin-right: auto;
+  margin-right: 0;
   margin-left: 14px;
   -webkit-transform: scaleX(-1); /* For Safari */
   transform: scaleX(-1);
@@ -120,7 +120,7 @@ body {
 
 /* =========Hambergur Menu========== */
 @media screen and (max-width: 767px) {
-    .nav-link {
+    .nav-link, .footer-links-block {
         direction: rtl;
     }
 }
@@ -134,3 +134,44 @@ body {
 .w--nav-dropdown-open {
   direction: rtl;
 }
+/* ========================= */
+/* =========MOBILE========== */
+/* ========================= */
+.split-content.about-section-right {
+  margin-right: auto;
+  margin-left: 16px;
+}
+
+@media screen and (max-width: 991px) {
+  .footer-mobile-content {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .input.newsletter {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .split-content.video-hero-left {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .videos-tab-link.w--current {
+    text-align: right;
+  }
+}
+
+.w-tab-link {
+  text-align: right;
+}
+
+@media screen and (max-width: 991px) {
+  .links-block._2, .links-block._3, .split-content.newsletter-left {
+    direction: rtl;
+  }
+} /*footer*/
