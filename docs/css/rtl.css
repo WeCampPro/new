@@ -162,9 +162,11 @@ body {
 /* ========================= */
 /* =========MOBILE========== */
 /* ========================= */
-.split-content.about-section-right {
-  margin-right: auto;
-  margin-left: 16px;
+@media screen and (max-width: 767px) {
+  .split-content.about-section-right {
+    margin-right: auto;
+    margin-left: 16px;
+  }
 }
 
 .w-tab-link {
