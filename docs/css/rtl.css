@@ -33,6 +33,11 @@ body {
   margin-right: 8px
 }
 
+/* =================Main Menue================ */
+.menu-grid-wrapper {
+  text-align: right;
+}
+
 /* =================Index================ */
 .event-icon {
   margin-left: 12px;
@@ -83,6 +88,14 @@ body {
   transform: scaleX(-1);
 } /*WiFi icon*/
 
+.testimonial-student-image {
+  margin-right: auto;
+  margin-left: 18px;
+}
+
+.student-details {
+  text-align: right;
+}
 /* =========Single Course========== */
 .videos-detail-icon {
   margin-right: 0;
@@ -175,3 +188,15 @@ body {
     direction: rtl;
   }
 } /*footer*/
+
+@media screen and (max-width: 767px) {
+  .student-details {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .testimonial-student-image {
+    margin-left: 18px;
+  }
+} /*Courses*/
