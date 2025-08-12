@@ -56,6 +56,10 @@ body {
   letter-spacing: 0;
 }
 
+.newsletter-icon-wrapper {
+  margin-right: auto;
+  margin-left: 16px;
+}
 /* =================Sales Home================ */
 .section {
   direction: rtl;
@@ -130,6 +134,14 @@ body {
 .block {
   display: block;
 } /*to have a new line after*/
+
+.more-templates-lottie-2 {
+  inset: -18px auto auto -19px;
+}
+
+.brix-badges-wrapper {
+  height: 148px;
+}
 
 /* =========Hambergur Menu========== */
 @media screen and (max-width: 767px) {
