@@ -167,6 +167,10 @@ body {
   margin-left: 16px;
 }
 
+.w-tab-link {
+  text-align: right;
+}
+
 @media screen and (max-width: 991px) {
   .footer-mobile-content {
     text-align: right;
@@ -180,19 +184,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .split-content.video-hero-left {
+  .split-content.video-hero-left, .videos-tab-link.w--current, .student-details {
     text-align: right;
   }
-}
-
-@media screen and (max-width: 767px) {
-  .videos-tab-link.w--current {
-    text-align: right;
-  }
-}
-
-.w-tab-link {
-  text-align: right;
 }
 
 @media screen and (max-width: 991px) {
@@ -202,10 +196,10 @@ body {
 } /*footer*/
 
 @media screen and (max-width: 767px) {
-  .student-details {
-    text-align: right;
+  .fine-print {
+    direction: rtl;
   }
-}
+} /*CopyRight*/
 
 @media screen and (max-width: 767px) {
   .testimonial-student-image {
