@@ -143,6 +143,9 @@ body {
   height: 148px;
 }
 
+.top-content.videos, .top-content.files {
+  max-width: none;
+}
 /* =========Hambergur Menu========== */
 @media screen and (max-width: 767px) {
     .nav-link, .footer-links-block {
