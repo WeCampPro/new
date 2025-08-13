@@ -109,7 +109,7 @@ body {
 }
 
 .icon-videos-community-wrapper {
-  margin-right: auto;
+  margin-right: 0;
   margin-left: 24px;
   width: 130px;
   min-width: 130px;
@@ -122,7 +122,7 @@ body {
 }
 
 .course-video-icon {
-  margin-right: auto;
+  margin-right: 0;
   margin-left: 31px;
 }
 
@@ -208,3 +208,9 @@ body {
     margin-left: 18px;
   }
 } /*Courses*/
+
+@media screen and (max-width: 767px) {
+  .top-content.videos {
+    text-align: right;
+  }
+}
