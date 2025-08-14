@@ -126,6 +126,82 @@ body {
   margin-left: 31px;
 }
 
+/* =========Single Course - Sticky Tab Bar========== */
+/* Desktop/tablet sticky behavior */
+.videos-tabs-menu {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0; /* Stick to top of viewport */
+  z-index: 1000; /* Above other content */
+}
+
+/* Optional: shrink height a bit when sticky */
+.videos-tabs-menu.sticky {
+  padding: 12px 6px;
+}
+
+.videos-tabs-menu.sticky .videos-tab-link {
+  padding: 12px 16px; /* reduced when sticky */
+  transition: padding 0.2s ease; /* smooth change */
+}
+
+.videos-tabs-menu.sticky .videos-tab-link.w--current {
+  border-bottom: none;
+}
+
+.videos-tabs-menu.sticky .videos-tab-link.w--current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--accent);
+  bottom: -16px; /* move up 4px from bottom */
+}
+
+/*Mobile*/
+@media screen and (max-width: 767px) {
+  .w-tab-pane {
+    padding-top: 24px; /* space above each section */
+    border-top: 2px solid #eee; /* light grey divider */
+    margin-top: 24px;
+  }
+
+  /* Optional: remove divider before the very first pane */
+  .w-tab-pane:first-child {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
+
+/* === Mobile Override: Show all tabs stacked with dividers === */
+@media screen and (max-width: 767px) {
+  /* Hide the tab menu completely */
+  .videos-tabs-menu {
+    display: none !important;
+  }
+
+  /* Show all tab panes stacked */
+  .w-tab-pane {
+    display: block !important;
+    opacity: 1 !important;
+    position: static !important;
+    visibility: visible !important;
+
+    /* Divider & spacing between tabs */
+    padding-top: 24px;
+    border-top: 2px solid #eee;
+    margin-top: 24px;
+  }
+
+  /* Remove divider before first tab */
+  .w-tab-pane:first-child {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
 
 /* =========Single Course - Boxes in 1st Tab========== */
 .videos-wrapper {
