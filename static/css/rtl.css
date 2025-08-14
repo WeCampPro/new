@@ -117,7 +117,7 @@ body {
 }
 
 .icon-files-wrapper {
-  margin-right: auto;
+  margin-right: 0;
   margin-left: 16px;
 }
 
@@ -215,5 +215,17 @@ body {
 @media screen and (max-width: 767px) {
   .top-content.videos {
     text-align: right;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .top-content.files {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .rich-text img {
+    margin-bottom: 0;
   }
 }
