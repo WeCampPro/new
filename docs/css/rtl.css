@@ -252,7 +252,7 @@ body {
 .videos-wrapper .card {
   position: relative; /* establish positioning context */
   display: flex;
-  flex-direction: column; /* stack content vertically */
+  /*flex-direction: column;  stack content vertically */
 }
 
 .videos-wrapper .button-secondary.small {
