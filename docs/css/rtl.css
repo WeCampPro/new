@@ -175,7 +175,7 @@ body {
   }
 }
 
-/* === Mobile Override: Show all tabs stacked with dividers === */
+/* === Mobile Override: Show all tabs stacked with integrated dividers === */
 @media screen and (max-width: 767px) {
   /* Hide the tab menu completely */
   .videos-tabs-menu {
@@ -189,19 +189,45 @@ body {
     position: static !important;
     visibility: visible !important;
 
-    /* Divider & spacing between tabs */
-    padding-top: 24px;
-    border-top: 2px solid #eee;
-    margin-top: 24px;
+    /* Divider & spacing between tabs - match site style */
+    padding-top: 40px;
+    border-top: 1px solid #dcdcdc; /* same as site dividers */
+    margin-top: 40px;
   }
 
-  /* Remove divider before first tab */
+  /* Remove divider line before first tab, but keep spacing above */
   .w-tab-pane:first-child {
     border-top: none;
-    margin-top: 0;
+    margin-top: 40px; /* match section spacing */
     padding-top: 0;
   }
 }
+
+/* Hide teacher bios only on Mobile, only in Tab 4 (تیم آموزشی) */
+@media (max-width: 767px) {
+  .videos-tab-panel[data-w-tab="Tab 4"] a.card.videos-community
+  .split-content.videos-community-left p.paragraph {
+    display: none !important;
+  }
+}
+
+/* Mobile: replace LinkedIn button text with icon only */
+/*@media (max-width: 767px) {
+  .videos-tab-panel[data-w-tab="Tab 4"] .button-secondary.small {
+    font-size: 0;
+    border: none;
+    box-shadow: none !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2۵px 20px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='16' fill='%230a66c2' class='bi bi-linkedin' viewBox='0 0 16 16'%3E%3Cpath d='M0 1.146C0 .513.526 0 1.175 0h13.65C15.473 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.527 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.521-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.52 1.248 1.327 1.248h.016zm4.908 8.212h2.4V9.359c0-.216.016-.432.08-.586.175-.431.573-.878 1.24-.878.873 0 1.222.662 1.222 1.634v3.865h2.4V9.25c0-2.22-1.184-3.252-2.764-3.252-1.276 0-1.845.7-2.165 1.193h.016V6.169h-2.4c.03.678 0 7.225 0 7.225z'/%3E%3C/svg%3E");
+  }
+  .videos-tab-panel[data-w-tab="Tab 4"] .button-secondary.small:hover,
+  .videos-tab-panel[data-w-tab="Tab 4"] .button-secondary.small:focus {
+    box-shadow: none !important;
+    background-color: transparent !important;
+  }
+}*/
 
 /* =========Single Course - Boxes in 1st Tab========== */
 .videos-wrapper {
