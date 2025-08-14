@@ -126,6 +126,30 @@ body {
   margin-left: 31px;
 }
 
+
+/* =========Single Course - Boxes in 1st Tab========== */
+.videos-wrapper {
+  display: flex;
+  gap: 16px; /* space between boxes */
+}
+
+.videos-social-media-wrapper {
+  flex: 1; /* makes them equal width */
+}
+
+/* Target ONLY LinkedIn buttons inside the videos wrapper */
+.videos-wrapper .card {
+  position: relative; /* establish positioning context */
+  display: flex;
+  flex-direction: column; /* stack content vertically */
+}
+
+.videos-wrapper .button-secondary.small {
+  position: absolute;
+  bottom: 10px;   /* distance from bottom */
+  left: 10px;     /* distance from left */
+}
+
 /* =========Chat Popup========== */
 .more-templates-badge-wrapper {
   direction: rtl;
