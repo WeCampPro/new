@@ -60,6 +60,12 @@ body {
   margin-right: auto;
   margin-left: 16px;
 }
+
+.why-us-icon {
+  margin-right: auto;
+  margin-left: 48px;
+}
+
 /* =================Sales Home================ */
 .section {
   direction: rtl;
