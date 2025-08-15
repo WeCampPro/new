@@ -304,6 +304,13 @@ body {
 .w--nav-dropdown-open {
   direction: rtl;
 }
+
+/* =========path pages========== */
+.card-post-author-picture {
+  margin-right: 0;
+  margin-left: 12px;
+}
+
 /* ========================= */
 /* =========MOBILE========== */
 /* ========================= */
