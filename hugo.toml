@@ -28,6 +28,23 @@ publishDir              = "docs"
 
 [[cascade]]
    [cascade._target]
-    path = '/camps/price'
+    path = '/path/cloud-engineering'
     [cascade.params]
-      layout = "price"
+      layout = "cloud-engineering"
+[[cascade]]
+   [cascade._target]
+    path = '/path/product-design'
+    [cascade.params]
+      layout = "product-design"
+
+[[cascade]]
+   [cascade._target]
+    path = '/courses/cloud-infra-1'
+    [cascade.params]
+      layout = "cloud-infra-1"
+
+[[cascade]]
+   [cascade._target]
+    path = '/courses/how-we-deisgn-a-product'
+    [cascade.params]
+      layout = "how-we-deisgn-a-product"
