@@ -157,6 +157,12 @@ body {
   margin-left: 31px;
 }
 
+/*Form*/
+.checkout-label-box {
+  margin-left: auto;
+  margin-right: 12px;
+}
+
 /* =========Single Course - Sticky Tab Bar========== */
 /* Desktop/tablet sticky behavior */
 .videos-tabs-menu {
