@@ -83,6 +83,7 @@ body {
 .title.companies {
   letter-spacing: 0;
 }
+
 /* =========404========== */
 .text-center {
   direction: rtl;
@@ -90,6 +91,16 @@ body {
 
 .button-secondary {
   letter-spacing: .02em;
+}
+
+/* =========401========== */
+.card.password {
+  direction: rtl;
+}
+
+.input.password {
+  direction: ltr;
+  text-align: right;
 }
 
 /* =========Courses========== */
@@ -108,6 +119,12 @@ body {
 .student-details {
   text-align: right;
 }
+
+.image.courses {
+  margin-right: auto;
+  margin-left: -190px;
+}
+
 /* =========Single Course========== */
 .videos-detail-icon {
   margin-right: 0;

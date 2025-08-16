@@ -17,6 +17,16 @@ publishDir              = "docs"
       layout = "product-design-1"
 [[cascade]]
    [cascade._target]
+    path = '/camps/product-design-2'
+    [cascade.params]
+      layout = "product-design-2"
+[[cascade]]
+   [cascade._target]
+    path = '/camps/product-design-3'
+    [cascade.params]
+      layout = "product-design-3"
+[[cascade]]
+   [cascade._target]
     path = '/camps/cloud-infra-1'
     [cascade.params]
       layout = "cloud-infra-1"
