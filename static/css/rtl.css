@@ -35,6 +35,12 @@ body {
   margin-right: 8px
 }
 
+/*Manually Added*/
+.mega-menu-column-4 {
+  margin-right: 100px; /*Handle the gep between Column4 and 1*/
+}
+
+
 /* =================Main Menue================ */
 .menu-grid-wrapper {
   text-align: right;
