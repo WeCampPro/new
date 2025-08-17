@@ -348,6 +348,12 @@ body {
   margin-left: 12px;
 }
 
+/* =========Success========== */
+.contact-link {
+  color: white;
+  text-decoration: underline;
+}
+
 /* ========================= */
 /* =========MOBILE========== */
 /* ========================= */
