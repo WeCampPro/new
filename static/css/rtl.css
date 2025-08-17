@@ -41,9 +41,13 @@ body {
 }
 
 
-/* =================Main Menue================ */
+/* =================Mega Menue================ */
 .menu-grid-wrapper {
   text-align: right;
+}
+
+.menu-grid {
+  width: auto;
 }
 
 /* =================Index================ */
