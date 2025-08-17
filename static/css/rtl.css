@@ -113,6 +113,16 @@ body {
   text-align: right;
 }
 
+/* =========Contact========== */
+.blue-social-icon {
+  margin-right: 0;
+  margin-left: 11px;
+}
+
+.faq-wrapper {
+  text-align: right;
+}
+
 /* =========Courses========== */
 .level-icon {
   margin-right: auto;
