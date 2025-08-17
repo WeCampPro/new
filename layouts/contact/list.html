@@ -26,7 +26,8 @@
        <div class="divider contact-us-form">
        </div>
        <div class="w-form">
-        <form data-name="Contact Form" data-wf-element-id="56a2d761-3469-3f97-6f98-f336fd4ba7b9" data-wf-page-id="5f52d24bbe17c5d2661c6bf6" id="wf-form-Contact-Form" method="get" name="wf-form-Contact-Form">
+        <form data-name="Contact Form" data-wf-element-id="56a2d761-3469-3f97-6f98-f336fd4ba7b9" data-wf-page-id="5f52d24bbe17c5d2661c6bf6" id="wf-form-Contact-Form" name="wf-form-Contact-Form" action="https://api.web3forms.com/submit" method="POST">
+         <input type="hidden" name="access_key" value="6540d8e6-186a-4cff-87b0-9e5c89f50b08">
          <div class="w-layout-grid contact-us-form-grid">
           <div class="input-wrapper">
            <label for="name">
@@ -38,13 +39,13 @@
            <label for="Email-5">
             آدرس ایمیل
            </label>
-           <input class="input w-input" data-name="Email" id="Email" maxlength="256" name="Email" placeholder="example@youremail.com" required="" type="text"/>
+           <input class="input w-input" data-name="Email" id="Email" maxlength="256" name="Email" placeholder="example@youremail.com" required="" type="email"/>
           </div>
           <div class="input-wrapper">
            <label for="Phone">
-            شکاره تلفن
+            شماره تلفن
            </label>
-           <input class="input w-input" data-name="Phone" id="Phone" maxlength="256" name="Phone" placeholder="۰۹۱۹۶۵۴۱۲۷۸" type="text"/>
+           <input class="input w-input" data-name="Phone" id="Phone" maxlength="256" name="Phone" placeholder="۰۹۱۹۶۵۴۱۲۷۸" type="tel"/>
           </div>
           <div class="input-wrapper">
            <label for="Subject">
@@ -57,8 +58,13 @@
           <label for="Message">
            متن پیام
           </label>
-          <textarea class="text-area w-input" data-name="Message" id="Message" maxlength="5000" name="Message" placeholder="در چه زمینه‌ای می‌توانیم به شما کمک کنیم؟ لطفاً تا حد امکان با جزئیات توضیح دهید." required=""></textarea>
+          <textarea class="text-area w-input" data-name="Message" id="Message" maxlength="5000" name="Message" placeholder="در چه زمینه‌ای می‌توانیم به شما کمک کنیم؟ لطفاً با جزئیات توضیح دهید." required=""></textarea>
          </div>
+
+         <input type="hidden" name="subject" value="پیام جدید از فرم تماس">
+         <input type="hidden" name="redirect" value="https://wecamp.pro/">
+         <!-- Honeypot Spam Protection -->
+         <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
          <input class="button-primary large w-button" data-wait="Please wait..." type="submit" value="ارسال پیام"/>
         </form>
         <div class="success-message contact-us w-form-done">
