@@ -186,6 +186,11 @@ body {
   margin-left: 31px;
 }
 
+/*Manually Created*/
+a.button-primary[data-open-tab="4"] {
+  margin-right: 16px; /* فاصله از دکمه کناری */
+}
+
 /*Form*/
 .checkout-label-box {
   margin-left: auto;
