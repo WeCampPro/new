@@ -197,6 +197,10 @@ a.button-primary[data-open-tab="4"] {
   margin-right: 12px;
 }
 
+.split-content.videos-community-left {
+  max-width: 590px; /* Increases teacher profile width */
+}
+
 /* =========Single Course - Sticky Tab Bar========== */
 /* Desktop/tablet sticky behavior */
 .videos-tabs-menu {
@@ -386,6 +390,12 @@ a.button-primary[data-open-tab="4"] {
 .contact-link {
   color: white;
   text-decoration: underline;
+}
+
+/* =========Footer========== */
+ * .split-content.newsletter-left {
+  margin-right: 0;
+  margin-left: 25px;
 }
 
 /* ========================= */
