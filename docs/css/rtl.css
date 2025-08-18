@@ -123,6 +123,21 @@ body {
   text-align: right;
 }
 
+/* =========About========== */
+.achievement-category, .teachers-work {
+  letter-spacing: 0;
+}
+
+.split-content.our-story {
+  margin-right: auto;
+  margin-left: 63px;
+}
+
+.visit-us-icon {
+  margin-right: auto;
+  margin-left: 12px;
+}
+
 /* =========Courses========== */
 .level-icon {
   margin-right: auto;
