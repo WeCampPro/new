@@ -196,6 +196,7 @@ a.button-primary[data-open-tab="4"] {
     display: none;
   }
 }
+
 /*Form*/
 .checkout-label-box {
   margin-left: auto;
@@ -408,7 +409,7 @@ a.button-primary[data-open-tab="4"] {
 /* ========================= */
 @media screen and (max-width: 767px) {
   .split-content.about-section-right {
-    margin-right: auto;
+    margin-right: 16px;
     margin-left: 16px;
   }
 }
