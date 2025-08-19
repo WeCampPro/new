@@ -191,6 +191,11 @@ a.button-primary[data-open-tab="4"] {
   margin-right: 16px; /* فاصله از دکمه کناری */
 }
 
+@media screen and (max-width: 767px) {
+  a.button-primary[data-open-tab="4"] {
+    display: none;
+  }
+}
 /*Form*/
 .checkout-label-box {
   margin-left: auto;
