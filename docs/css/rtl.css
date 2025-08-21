@@ -405,11 +405,13 @@ a.button-primary[data-open-tab="4"] {
 }
 
 /* ==========Others========= */
-.input.newsletter {
-  margin-right: auto;
-  margin-left: 14px;
-  direction: ltr;
-  text-align: right;
+@media screen and (min-width: 479px) {
+  .input.newsletter {
+    margin-right: auto;
+    margin-left: 14px;
+    direction: ltr;
+    text-align: right;
+  }
 }
 
 
