@@ -404,6 +404,15 @@ a.button-primary[data-open-tab="4"] {
   margin-left: 25px;
 }
 
+/* ==========Others========= */
+.input.newsletter {
+  margin-right: auto;
+  margin-left: 14px;
+  direction: ltr;
+  text-align: right;
+}
+
+
 /* ========================= */
 /* =========MOBILE========== */
 /* ========================= */

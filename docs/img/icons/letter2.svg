@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="51"
+   height="37"
+   viewBox="0 0 51 37"
+   fill="none"
+   version="1.1"
+   id="svg2"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <rect
+     y="4.7778301"
+     width="42.666698"
+     height="32"
+     rx="8"
+     fill="#8585de"
+     id="rect1"
+     x="0" />
+  <mask
+     id="mask0"
+     mask-type="alpha"
+     maskUnits="userSpaceOnUse"
+     x="0"
+     y="4"
+     width="43"
+     height="33">
+    <rect
+       y="4.7778301"
+       width="42.666698"
+       height="32"
+       rx="8"
+       fill="#f5f7ff"
+       id="rect2"
+       x="0" />
+  </mask>
+  <g
+     mask="url(#mask0)"
+     id="g2">
+    <path
+       d="M 12.2903,19.4905 -3.39908,8.00362 C -3.50324,7.92735 -3.6014,7.84321 -3.69269,7.75192 L -5.48584,5.95876 C -6.41363,5.03098 -5.75653,3.44461 -4.44444,3.44461 L 46.3248,0.941897 c 3.794,-0.187028 5.5699,4.624513 2.5641,6.947153 L 30.6818,19.9292 c -3.4047,2.2515 -5.107,3.3773 -6.9409,3.7745 -1.5525,0.3363 -3.1629,0.2979 -4.6976,-0.1121 -1.8128,-0.4842 -3.4596,-1.6898 -6.753,-4.1011 z"
+       fill="#d8d8fe"
+       id="path2" />
+  </g>
+  <circle
+     cx="43"
+     cy="8"
+     r="7"
+     fill="#3434ff"
+     stroke="#ffffff"
+     stroke-width="2"
+     id="circle2" />
+</svg>
