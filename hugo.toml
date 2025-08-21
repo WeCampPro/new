@@ -55,6 +55,6 @@ publishDir              = "docs"
 
 [[cascade]]
    [cascade._target]
-    path = '/courses/how-we-deisgn-a-product'
+    path = '/events/how-we-deisgn-a-product'
     [cascade.params]
       layout = "how-we-deisgn-a-product"

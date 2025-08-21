@@ -138,7 +138,7 @@ body {
   margin-left: 12px;
 }
 
-/* =========Courses========== */
+/* =========Camps========== */
 .level-icon {
   margin-right: auto;
   margin-left: 8px;
@@ -160,7 +160,7 @@ body {
   margin-left: -190px;
 }
 
-/* =========Single Course========== */
+/* =========Single Camp========== */
 .videos-detail-icon {
   margin-right: 0;
   margin-left: 14px;
@@ -310,7 +310,7 @@ a.button-primary[data-open-tab="4"] {
   }
 }*/
 
-/* =========Single Course - Boxes in 1st Tab========== */
+/* =========Single Camp - Boxes in 1st Tab========== */
 .videos-wrapper {
   display: flex;
   flex-wrap: wrap; /* allows them to stack on small screens */
@@ -347,6 +347,22 @@ a.button-primary[data-open-tab="4"] {
   .videos-wrapper .button-secondary.small {
     position: unset;
   }
+}
+
+/* =========Course Page========== */
+.course-detail-icon {
+  margin-right: 0;
+  margin-left: 18px;
+}
+
+.price-wrapper {
+  margin-right: 0;
+  margin-left: 11px;
+}
+
+.image.course-teacher {
+  margin-right: auto;
+  margin-left: 24px;
 }
 
 /* =========Chat Popup========== */
@@ -413,7 +429,6 @@ a.button-primary[data-open-tab="4"] {
     text-align: right;
   }
 }
-
 
 /* ========================= */
 /* =========MOBILE========== */
