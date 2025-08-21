@@ -475,6 +475,12 @@ a.button-primary[data-open-tab="4"] {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .rich-text img {
+    margin-bottom: 10px;
+  }
+}
+
 @media screen and (max-width: 479px) {
   .rich-text img {
     margin-bottom: 0;
