@@ -430,6 +430,12 @@ a.button-primary[data-open-tab="4"] {
   }
 }
 
+.newsletter-icon {
+  left: auto
+  right: 4px;
+  -webkit-transform: scaleX(-1); /* For Safari */
+  transform: scaleX(-1);
+}
 /* ========================= */
 /* =========MOBILE========== */
 /* ========================= */
