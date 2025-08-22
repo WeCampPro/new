@@ -168,8 +168,8 @@ body {
 .videos-detail-icon {
   margin-right: 0;
   margin-left: 14px;
-  -webkit-transform: scaleX(-1); /* For Safari */
-  transform: scaleX(-1);
+  /*-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);*/
 }
 
 .icon-videos-community-wrapper {
@@ -435,7 +435,7 @@ a.button-primary[data-open-tab="4"] {
 }
 
 .newsletter-icon {
-  left: auto
+  left: auto;
   right: 4px;
   -webkit-transform: scaleX(-1); /* For Safari */
   transform: scaleX(-1);
