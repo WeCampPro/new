@@ -78,6 +78,10 @@ body {
   margin-left: 48px;
 }
 
+.circle-shape, .circle-shape-testimonial, .circle-shape-404 {
+  transform: scaleX(-1) !important;
+}
+
 /* =================Sales Home================ */
 .section {
   direction: rtl;
