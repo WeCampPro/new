@@ -3340,7 +3340,7 @@ strong {
 blockquote {
   background-color: var(--neutral-100);
   text-align: center;
-  background-image: url("/img/icons/icon-block-quote.svg");
+  background-image: url("/img/icons/block-quote.svg");
   background-position: 50% 20%;
   background-repeat: no-repeat;
   background-size: 125px;
@@ -4532,7 +4532,7 @@ figcaption {
 .testimonial-content {
   border-bottom: 1px solid var(--neutral-400);
   text-align: center;
-  background-image: url("/img/icons/icon-blockquote-courses.svg");
+  background-image: url("/img/icons/blockquote-courses.svg");
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: 131px;
@@ -7330,7 +7330,7 @@ figcaption {
 }
 
 .rich-text-bullets li {
-  background-image: url("/img/icons/icon-unordered-list.svg");
+  background-image: url("/img/icons/unordered-list.svg");
   background-position: 0 12px;
   background-repeat: no-repeat;
   background-size: 8px;
