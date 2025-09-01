@@ -3340,7 +3340,7 @@ strong {
 blockquote {
   background-color: var(--neutral-100);
   text-align: center;
-  background-image: url("https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/5f52d24bbe17c522441c6b84_icon-block-quote-academy-template.svg");
+  background-image: url("/img/icons/icon-block-quote.svg");
   background-position: 50% 20%;
   background-repeat: no-repeat;
   background-size: 125px;
@@ -4532,7 +4532,7 @@ figcaption {
 .testimonial-content {
   border-bottom: 1px solid var(--neutral-400);
   text-align: center;
-  background-image: url("https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/5f52d24bbe17c52fb41c6bc4_icon-blockquote-courses-academy-template.svg");
+  background-image: url("/img/icons/icon-blockquote-courses.svg");
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: 131px;
@@ -5830,7 +5830,7 @@ figcaption {
 }
 
 .companies-main-top {
-  background-image: url("https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/5f52d24bbe17c5517a1c6b93_shape-section-academy-template.svg");
+  background-image: url("/img/index/shape-hreo-section-background.svg");
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7330,7 +7330,7 @@ figcaption {
 }
 
 .rich-text-bullets li {
-  background-image: url("https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/5f52d24bbe17c542ac1c6c6a_icon-unordered-list-academy-template.svg");
+  background-image: url("/img/icons/icon-unordered-list.svg");
   background-position: 0 12px;
   background-repeat: no-repeat;
   background-size: 8px;
@@ -11620,56 +11620,56 @@ figcaption {
 
 @font-face {
   font-family: 'Icon Fonts Academy Template';
-  src: url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/5f52d24bbe17c5361b1c6c6d_icon-fonts-academy-template.woff2') format('woff2');
+  src: url('/fonts/icon-fonts.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Line Rounded Icons';
-  src: url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7cc34a15f426359c5c99_line-rounded-icons.woff2') format('woff2'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7cc2eea84a2abec448ae_line-rounded-icons.eot') format('embedded-opentype'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7cc3043a361ec1dfb378_line-rounded-icons.woff') format('woff'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7cc2c674b0ccdb115344_line-rounded-icons.ttf') format('truetype'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7cc39147fe080b4176dc_line-rounded-icons.svg') format('svg');
+  src: url('/fonts/line-rounded-icons.woff2') format('woff2'), url('/fonts/line-rounded-icons.eot') format('embedded-opentype'), url('/fonts/line-rounded-icons.woff') format('woff'), url('/fonts/line-rounded-icons.ttf') format('truetype'), url('/fonts/line-rounded-icons.svg') format('svg');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Line Square Icons';
-  src: url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7d004a15f438f09c5f63_line-square-icons.woff2') format('woff2'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7d00294f3c9156c926ac_line-square-icons.eot') format('embedded-opentype'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7d00eea84aab95c449bd_line-square-icons.woff') format('woff'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7d00aa3a5829bb0710c9_line-square-icons.ttf') format('truetype'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7d00eea84ad95fc449bc_line-square-icons.svg') format('svg');
+  src: url('/fonts/line-square-icons.woff2') format('woff2'), url('/fonts/line-square-icons.eot') format('embedded-opentype'), url('/fonts/line-square-icons.woff') format('woff'), url('/fonts/line-square-icons.ttf') format('truetype'), url('/fonts/line-square-icons.svg') format('svg');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Social Icon Font';
-  src: url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7d2f6b23f21e424a4b1d_social-icon-font.woff2') format('woff2'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7d2f0e99efbe3ee4e83b_social-icon-font.eot') format('embedded-opentype'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7d2f1238cbd7fb77f75e_social-icon-font.woff') format('woff'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7d2f0897776654472cd0_social-icon-font.ttf') format('truetype'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7d2f184b7460cf3f55a7_social-icon-font.svg') format('svg');
+  src: url('/fonts/social-icon-font.woff2') format('woff2'), url('/fonts/social-icon-font.eot') format('embedded-opentype'), url('/fonts/social-icon-font.woff') format('woff'), url('/fonts/_social-icon-font.ttf') format('truetype'), url('/fonts/social-icon-font.svg') format('svg');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Filled Icons';
-  src: url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7c871238cb802777ed81_filled-icon-font.woff2') format('woff2'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7c871238cb802777ed81_filled-icon-font.woff2') format('woff2'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7c870db7162ace28be74_filled-icon-font.eot') format('embedded-opentype'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7c870db7162ace28be74_filled-icon-font.eot') format('embedded-opentype'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7c8758b878344543ff84_filled-icon-font.woff') format('woff'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7c8758b878344543ff84_filled-icon-font.woff') format('woff'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7c87043a361a63dfacf4_filled-icon-font.ttf') format('truetype'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7c87043a361a63dfacf4_filled-icon-font.ttf') format('truetype'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7c870e99ef049ce4e3f1_filled-icon-font.svg') format('svg'), url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/62ed7c870e99ef049ce4e3f1_filled-icon-font.svg') format('svg');
+  src: url('/fonts/filled-icon-font.woff2') format('woff2'), url('/fonts/filled-icon-font.woff2') format('woff2'), url('/fonts/filled-icon-font.eot') format('embedded-opentype'), url('/fonts/filled-icon-font.eot') format('embedded-opentype'), url('/fonts/filled-icon-font.woff') format('woff'), url('/fonts/filled-icon-font.woff') format('woff'), url('/fonts/filled-icon-font.ttf') format('truetype'), url('/fonts/filled-icon-font.ttf') format('truetype'), url('/fonts/filled-icon-font.svg') format('svg'), url('/fonts/filled-icon-font.svg') format('svg');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Jakarta Display';
-  src: url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/5f52d24bbe17c57a041c6b80_PlusJakartaDisplay-Regular.otf') format('opentype');
+  src: url('/fonts/PlusJakartaDisplay-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Jakarta Display';
-  src: url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/5f52d24bbe17c58d051c6b81_PlusJakartaDisplay-Medium.otf') format('opentype');
+  src: url('/fonts/PlusJakartaDisplay-Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Jakarta Display';
-  src: url('https://cdn.prod.website-files.com/5f52d24bbe17c561061c6b7a/5f52d24bbe17c5e45f1c6b82_PlusJakartaDisplay-Bold.otf') format('opentype');
+  src: url('/fonts/PlusJakartaDisplay-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: auto;
