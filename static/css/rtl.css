@@ -513,3 +513,12 @@ a.button-primary[data-open-tab="4"] {
     margin-bottom: 0;
   }
 }
+
+/*############DEFINED############*/
+.calendar-wrapper {
+  margin-right: 0;
+  margin-left: 0;
+  width: 130px;
+  min-width: 130px;
+  height: 130px;
+}
