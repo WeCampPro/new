@@ -522,3 +522,12 @@ a.button-primary[data-open-tab="4"] {
   min-width: 130px;
   height: 130px;
 }
+
+/* make the porsline slider always above navbars */
+#porsline-slider,
+#porsline-slider-iframe,
+#porsline-share,
+.porsline-slider,
+.porsline-slider * {
+  z-index: 99999 !important;
+}
