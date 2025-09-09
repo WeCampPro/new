@@ -12,46 +12,56 @@ publishDir              = "docs"
 
 [[cascade]]
    [cascade._target]
+    path = '/camps/product-design'
+    [cascade.params]
+      layout = "product-design"
+[[cascade]]
+   [cascade._target]
     path = '/camps/product-design-1'
     [cascade.params]
       layout = "product-design-1"
 [[cascade]]
    [cascade._target]
-    path = '/camps/product-design-2'
+    path = '/camps/product-design-advanced'
     [cascade.params]
-      layout = "product-design-2"
+      layout = "product-design-advanced"
 [[cascade]]
    [cascade._target]
-    path = '/camps/product-design-3'
+    path = '/camps/product-design-project'
     [cascade.params]
-      layout = "product-design-3"
+      layout = "product-design-project"
 [[cascade]]
    [cascade._target]
-    path = '/camps/cloud-infra-1'
+    path = '/camps/cloud-infra-management'
     [cascade.params]
-      layout = "cloud-infra-1"
+      layout = "cloud-infra-management"
 [[cascade]]
    [cascade._target]
-    path = '/camps/cloud-infra-2'
+    path = '/camps/cloud-infra-deployment'
     [cascade.params]
-      layout = "cloud-infra-2"
+      layout = "cloud-infra-deployment"
+[[cascade]]
+   [cascade._target]
+    path = '/camps/cloud-infra-advanced'
+    [cascade.params]
+      layout = "cloud-infra-advanced"
 
-[[cascade]]
-   [cascade._target]
-    path = '/path/cloud-engineering'
-    [cascade.params]
-      layout = "cloud-engineering"
 [[cascade]]
    [cascade._target]
     path = '/path/product-design'
     [cascade.params]
       layout = "product-design"
+[[cascade]]
+   [cascade._target]
+    path = '/path/cloud-engineering'
+    [cascade.params]
+      layout = "cloud-engineering"
 
 [[cascade]]
    [cascade._target]
-    path = '/courses/cloud-infra-1'
+    path = '/courses/cloud-infra-management'
     [cascade.params]
-      layout = "cloud-infra-1"
+      layout = "cloud-infra-management"
 
 [[cascade]]
    [cascade._target]
