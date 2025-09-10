@@ -523,6 +523,27 @@ a.button-primary[data-open-tab="4"] {
   height: 130px;
 }
 
+@media screen and (max-width: 767px) {
+  .mobile {
+    display: unset;
+  }
+  .noborder {
+    border: none !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .desktop {
+    margin-bottom: 20px;
+  }
+  .no-hover:hover {
+    background-color: #0000;
+    color: var(--accent);
+    transform: none;
+    box-shadow: none;
+  }
+}
+
 /* make the porsline slider always above navbars */
 #porsline-slider,
 #porsline-slider-iframe,
