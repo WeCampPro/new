@@ -11,7 +11,7 @@ body {
 /* =================Navbar================ */
 
 @media screen and (min-width: 992px) {
-  .container-default-1209px {
+  .container-default-1209px, .slide-wrapper {
     direction: rtl;
   }
 }
