@@ -12,6 +12,11 @@ publishDir              = "docs"
 
 [[cascade]]
    [cascade._target]
+    path = '/camps/coming-soon'
+    [cascade.params]
+      layout = "coming-soon"
+[[cascade]]
+   [cascade._target]
     path = '/camps/product-design'
     [cascade.params]
       layout = "product-design"
