@@ -15,16 +15,12 @@ publishDir              = "docs"
     path = '/camps/coming-soon'
     [cascade.params]
       layout = "coming-soon"
+
 [[cascade]]
    [cascade._target]
     path = '/camps/product-design'
     [cascade.params]
       layout = "product-design"
-[[cascade]]
-   [cascade._target]
-    path = '/camps/product-design-1'
-    [cascade.params]
-      layout = "product-design-1"
 [[cascade]]
    [cascade._target]
     path = '/camps/product-design-advanced'
@@ -35,6 +31,7 @@ publishDir              = "docs"
     path = '/camps/product-design-project'
     [cascade.params]
       layout = "product-design-project"
+
 [[cascade]]
    [cascade._target]
     path = '/camps/cloud-infra-management'
@@ -47,9 +44,9 @@ publishDir              = "docs"
       layout = "cloud-infra-deployment"
 [[cascade]]
    [cascade._target]
-    path = '/camps/cloud-infra-advanced'
+    path = '/camps/cloud-infra-deepdive'
     [cascade.params]
-      layout = "cloud-infra-advanced"
+      layout = "cloud-infra-deepdive"
 
 [[cascade]]
    [cascade._target]
